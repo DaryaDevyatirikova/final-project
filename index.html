@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script defer src="./index.js"></script>
+    <title>Транслит</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="logo">
+        <span id="logo">T.R.A.N.S.L.I.T</span>
+      </div>
+
+      <div class="input-panal">
+        <input placeholder="Начните вводить текст" />
+        <button id="input-button">Добавить</button>
+      </div>
+
+      <div class="dictionary">
+        <div class="dictionary-row" id="first-row">
+          <div class="rus">
+            <span class="index">1</span>
+            <span class="word">Привет</span>
+          </div>
+          <div class="eng">
+            <span class="word">Privet</span>
+            <img class="eng-button" src="./icons/Group-1.png" alt="Удалить" />
+            <div class="background"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="delete-panal">
+        <div id="delete-panal">
+          <img class="delete" src="./icons/Group-1.png" />
+          <button id="delete-button">Очистить всё</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
